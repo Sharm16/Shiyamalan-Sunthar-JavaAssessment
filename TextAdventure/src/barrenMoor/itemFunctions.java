@@ -33,7 +33,7 @@ public class itemFunctions {
 				if (Math.sqrt((o.xAxis - a) * (o.xAxis - a) + (o.yAxis - b) * (o.yAxis - b)) < distance)
 					distance = (float) Math.sqrt((o.xAxis - a) * (o.xAxis - a) + (o.yAxis - b) * (o.yAxis - b));
 				x = o;
-
+			}
 				if (o.xAxis - o.xAxis == 0) {
 					if (o.yAxis - o.yAxis > 0) {
 						System.out.println("Go North");
@@ -65,10 +65,9 @@ public class itemFunctions {
 					} else
 						System.out.println("Go South West");
 				}
-			}
+			
 
 		}
-	
 
 	}
 
