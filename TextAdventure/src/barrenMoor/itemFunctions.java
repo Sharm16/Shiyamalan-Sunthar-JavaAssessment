@@ -34,32 +34,32 @@ public class itemFunctions {
 					distance = (float) Math.sqrt((o.xAxis - a) * (o.xAxis - a) + (o.yAxis - b) * (o.yAxis - b));
 				x = o;
 
-				if (o.xAxis - a == 0) {
-					if (o.yAxis - b > 0) {
+				if (o.xAxis - o.xAxis == 0) {
+					if (o.yAxis - o.yAxis > 0) {
 						System.out.println("Go North");
 
 					} else
 						System.out.println("Go South");
 				}
 
-				else if (o.yAxis - b == 0) {
-					if (o.xAxis - a > 0) {
+				else if (o.yAxis - o.yAxis == 0) {
+					if (o.xAxis - o.xAxis > 0) {
 						System.out.println("Go East");
 
 					} else
 						System.out.println("Go West");
 				}
 
-				else if (o.xAxis - a > 0) {
-					if (o.yAxis - b > 0) {
+				else if (o.xAxis - o.xAxis > 0) {
+					if (o.yAxis - o.yAxis > 0) {
 						System.out.println("Go North East");
 
 					} else
 						System.out.println("Go South East");
 				}
 
-				else if (o.xAxis - a < 0) {
-					if (o.yAxis - b > 0) {
+				else if (o.xAxis - o.xAxis < 0) {
+					if (o.yAxis - o.yAxis > 0) {
 						System.out.println("Go North West");
 
 					} else
@@ -68,7 +68,7 @@ public class itemFunctions {
 			}
 
 		}
-
+	
 
 	}
 

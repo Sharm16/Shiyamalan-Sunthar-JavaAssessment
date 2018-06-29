@@ -16,7 +16,7 @@ public class PointOfInterest{
 		
 		Objects end = new Objects("Game Over", 10,10,"You have complted the game congratulations!!!",false);
 		Objects compassDistance = new Objects("Compass",0,1,"This magical compass is able to show you the distance to the nearest point of interest",false);
-		Objects compassDirection = new Objects("Compass",10,11,"This magical compass is able to show you the dierction to the nearest point of interest, type compass to check",false);
+		Objects compassDirection = new Objects("Compass",2,2,"This magical compass is able to show you the dierction to the nearest point of interest, type compass to check",false);
 		Objects shoes = new Objects("pair of Shoes", 10,-12,"You can now run with these shoes",false);
 		setPoi(new ArrayList<>());
 		getPoi().add(end);

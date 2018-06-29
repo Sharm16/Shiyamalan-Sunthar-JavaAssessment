@@ -17,7 +17,9 @@ public class Runner {
 				System.out.println("Distance to closest point of interest: "
 						+ itemFunctions.compassDistance(CurrentPosition.getyAxis(), CurrentPosition.getyAxis()) + "m");
 			}
-			System.out.println(poi.getObject(1).access);
+			if (poi.getObject(2).access == true) {
+				itemFunctions.compassDirection(CurrentPosition.getyAxis(), CurrentPosition.getyAxis());
+			}
 		} while (poi.getObject(0).access == false);
 		
 
