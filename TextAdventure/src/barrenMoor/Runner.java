@@ -1,7 +1,5 @@
 package barrenMoor;
 
-import java.util.ArrayList;
-
 public class Runner {
 
 	public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class Runner {
 		PointOfInterest poi = new PointOfInterest();
 
 		System.out.println(
-				"You have been abolished from Earth and must find a way back. You look around to find yourself in a baron moor.You see something on the floor in front of you. Try typing north");
+				"You have been abolished from Earth and must find a way back. You look around to find yourself in a baron moor.You see something on the floor in front of you. Try typing north, east south or west. Hint go North");
 
 		do {
 			Movement.Move();
